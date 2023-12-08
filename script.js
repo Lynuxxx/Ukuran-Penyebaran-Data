@@ -42,7 +42,7 @@ submitButton.addEventListener('click', (e) => {
             <p>Jumlah Data = ${numberOfData}</p>
             <h4>1. Jangkauan</h4>
             <p> ${maxVal} - ${minVal} = ${range}</p>
-            <h4>2. Simpangan Rata-Rata/h4>
+            <h4>2. Simpangan Rata-Rata</h4>
             <p> x = ${sumData} / ${numberOfData} = ${meanDeviation}</p>
             <p>SR</p>
             <p>(${reverseDeviation.map((e) => e.toFixed(2)).join(' + ')}) / ${numberOfData}</p>
